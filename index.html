@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar EL HASSANI - Web & Mobile Developer</title>
+  <styles>
+    /* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #004d99;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+header .contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+header .contact-info li {
+  margin: 5px 0;
+}
+
+header .contact-info a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+header .contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Section Headers */
+section h2 {
+  border-bottom: 2px solid #004d99;
+  padding-bottom: 10px;
+  color: #004d99;
+  margin-bottom: 20px;
+}
+
+/* Experience and Education */
+section article {
+  margin-bottom: 30px;
+}
+
+section article h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #004d99;
+}
+
+section article p {
+  font-size: 1.1rem;
+  margin-top: 5px;
+}
+
+/* Skills and Certifications */
+.skills ul, .certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li, .certifications ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 5px solid #004d99;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #004d99;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+    .language-switcher {
+  text-align: right;
+  margin: 10px;
+}
+
+.language-switcher button {
+  background-color: #004d99;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background-color: #003366;
+}
+
+  </styles>
+ 
+</head>
+<body>
+  <div class="language-switcher">
+    <button id="en-btn">English</button>
+    <button id="fr-btn">Français</button>
+  </div>
+
+  <header>
+    <h1 data-en="Omar EL HASSANI" data-fr="Omar EL HASSANI"></h1>
+    <p data-en="Web & Mobile Developer" data-fr="Développeur Web & Mobile"></p>
+    <ul class="contact-info">
+      <li>Email: <a href="mailto:elhassani.omar12@gmail.com">elhassani.omar12@gmail.com</a></li>
+      <li data-en="Phone: +212 633-959676" data-fr="Téléphone: +212 633-959676"></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/omarelhassani12/">Omar EL HASSANI</a></li>
+      <li>Portfolio: <a href="https://omarelhassani.netlify.app/">omarelhassani.netlify.app</a></li>
+    </ul>
+  </header>
+  
+  <section class="about">
+    <h2 data-en="About Me" data-fr="À Propos de Moi"></h2>
+    <p data-en="I am a passionate web and mobile developer with a solid academic background and practical experience. I specialize in creating responsive and user-centric web and mobile applications. My goal is to apply my knowledge to build efficient and scalable solutions within a collaborative team."
+       data-fr="Développeur web et mobile passionné avec une solide formation académique et une expérience pratique. Je me spécialise dans la création d'applications web et mobiles réactives et centrées sur l'utilisateur. Mon objectif est d'appliquer mes connaissances pour construire des solutions efficaces et évolutives au sein d'une équipe collaborative."></p>
+  </section>
+
+  <section class="experience">
+    <h2 data-en="Professional Experience" data-fr="Expérience Professionnelle"></h2>
+    <article>
+      <h3>MediClic.ma</h3>
+      <p data-en="Frontend Developer / Web Integrator (June 2024 – Present)" 
+         data-fr="Développeur Frontend / Intégrateur Web (Juin 2024 – Présent)"></p>
+      <ul>
+        <li data-en="Created and optimized user interfaces for various web projects."
+            data-fr="Création et optimisation des interfaces utilisateur pour divers projets web."></li>
+        <li data-en="Developed a seamless and smooth user experience by implementing user-centered web development practices."
+            data-fr="Développement d'une expérience utilisateur fluide et agréable, en mettant en œuvre des pratiques de développement web centrées sur l'utilisateur."></li>
+        <li data-en="Transformed mockups into interactive, responsive websites, ensuring faithful integration of designs."
+            data-fr="Transformation de maquettes en sites web interactifs et réactifs, assurant une intégration fidèle des designs."></li>
+        <li data-en="Collaborated closely with design and development teams to create high-performing, aesthetically pleasing web solutions, respecting project requirements."
+            data-fr="Collaboration étroite avec les équipes de design et de développement pour la conception de solutions web performantes et esthétiques, respectant les exigences des projets."></li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Centre d'OFPPT</h3>
+      <p data-en="Freelance Web Developer (May 2023 – September 2023)" 
+         data-fr="Développeur Web Freelance (Mai 2023 – Septembre 2023)"></p>
+      <ul>
+        <li data-en="Designed and developed a web platform for managing trainee attendance with user-friendly interfaces and secure data management."
+            data-fr="Conception et développement d'une plateforme web pour la gestion des absences des stagiaires avec interfaces conviviales et gestion sécurisée des données."></li>
+      </ul>
+    </article>
+
+    <!-- Add more experience entries here -->
+  </section>
+
+  <section class="education">
+    <h2 data-en="Academic Background" data-fr="Formation Académique"></h2>
+    <article>
+      <h3>École Supérieure de Technologie</h3>
+      <p data-en="Diploma of University Technology (DUT) in Computer Engineering (October 2021 – June 2023)"
+         data-fr="Diplôme Universitaire de Technologie (DUT) en Génie Informatique (Octobre 2021 – Juin 2023)"></p>
+    </article>
+    <!-- Add more education entries here -->
+  </section>
+
+  <section class="skills">
+    <h2 data-en="Skills" data-fr="Compétences"></h2>
+    <ul>
+      <li data-en="Web Development: ReactJs, NodeJs, HTML, CSS, JavaScript, PHP, Laravel" 
+          data-fr="Développement Web : ReactJs, NodeJs, HTML, CSS, JavaScript, PHP, Laravel"></li>
+      <li data-en="Mobile Development: Flutter, NodeJs"
+          data-fr="Développement Mobile : Flutter, NodeJs"></li>
+      <!-- Add more skills here -->
+    </ul>
+  </section>
+
+  <section class="certifications">
+    <h2 data-en="Certifications" data-fr="Certifications"></h2>
+    <ul>
+      <li data-en="Cybersecurity Essentials – Cisco (July 2023)"
+          data-fr="Cybersecurity Essentials – Cisco (Juillet 2023)"></li>
+      <li data-en="CCNA – Cisco (January 2023)"
+          data-fr="CCNA – Cisco (Janvier 2023)"></li>
+      <!-- Add more certifications here -->
+    </ul>
+  </section>
+
+  <footer>
+    <p data-en="Connect with me on" data-fr="Connectez-vous avec moi sur"> 
+      <a href="https://www.linkedin.com/in/omarelhassani12/">LinkedIn</a> or 
+      <a href="https://omarelhassani.netlify.app/">visit my portfolio</a>.
+    </p>
+  </footer>
+   <script>
+    document.addEventListener("DOMContentLoaded", () => {
+  const enButton = document.getElementById("en-btn");
+  const frButton = document.getElementById("fr-btn");
+  
+  const switchLanguage = (lang) => {
+    document.querySelectorAll("[data-en]").forEach((element) => {
+      element.textContent = element.getAttribute(`data-${lang}`);
+    });
+  };
+
+  // Default language
+  switchLanguage("en");
+
+  // Switch to English
+  enButton.addEventListener("click", () => {
+    switchLanguage("en");
+  });
+
+  // Switch to French
+  frButton.addEventListener("click", () => {
+    switchLanguage("fr");
+  });
+});
+
+  </script> 
+</body>
+</html>
